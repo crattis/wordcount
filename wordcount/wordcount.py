@@ -15,7 +15,9 @@ def main():
                         word_count[word] = 1
                     else:
                         word_count[word] += 1
-
+    word_list = sorted(word.items(), key=lambda x:x[1], reverse=True)
+    for counted in word_list:
+        print(counted.strip())
 
 if __name__ == '__main__':
     main()
