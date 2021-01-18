@@ -5,8 +5,8 @@ import os
 def main():
     word_count = {}
     # TODO: For loop for local files
-    for html_file in os.scan('.'):
-        if html_file.is_file():
+    for html_file in os.listdir('.'):
+        if html_file.endswith(".html"):
             with open(html_file, 'r') as file:
                 content = ' '.join(line for line in file.read().splitlines())
                 content = content.split(' ')
@@ -15,9 +15,11 @@ def main():
                         word_count[word] = 1
                     else:
                         word_count[word] += 1
-    word_list = sorted(word.items(), key=lambda x:x[1], reverse=True)
+    word_list = sorted(word_count.items(),
+                       key=lambda item: item[1], reverse=True)
     for counted in word_list:
-        print(counted.strip())
+        print(counted)
+
 
 if __name__ == '__main__':
     main()
