@@ -1,36 +1,40 @@
-# Script Name
+# wordcount
 
-[[description of what the project does]]
+Counts the frequency of words used in locally stored HTML files. The goal when writing the script was to get the best possible list of words to search on for another script.
 
 ## Installation
 
-[[how to install]]
+No installation right now. Clone repository and run with python.
 
 ## Usage
+
+Right now locally ran module.
 
 ### Command Line
 
 ```python
-
+python wordcount.py
 ```
 
 ## Requirements
 
+Locally stored HTML files.
+
 ### python packages
 
-[[what packages are needed]]
+os (built in)
 
 ### Other
 
-[[any api keys needed?]]
+TODO: Used package template, need to make an installable to package.
 
 ## Change Log
 
-[[what has changed]]
+First 
 
 ## License and Author
 
-License:
-Year:
-Author:
-author email:
+License: MIT
+Year: 2021
+Author: Chris J
+author email: crattis@users.noreply.github.com
