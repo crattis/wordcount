@@ -40,4 +40,4 @@ Year: 2021
 
 Author: Chris J
 
-author email: crattis@users.noreply.github.com
+author email: crattis {-at-} users[.]noreply[.]github[.]com
