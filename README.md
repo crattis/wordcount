@@ -8,7 +8,7 @@ No installation right now. Clone repository and run with python.
 
 ## Usage
 
-Right now locally ran module.
+Run locally from directory cloned to.
 
 ### Command Line
 
