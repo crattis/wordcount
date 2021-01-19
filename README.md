@@ -35,6 +35,9 @@ First
 ## License and Author
 
 License: MIT
+
 Year: 2021
+
 Author: Chris J
+
 author email: crattis@users.noreply.github.com
